@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Example Book</title>
+
+    <!-- Styles and fonts -->
+    <link href="stylesheets/all/all.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/all/syntax.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/hamilton/hamilton.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <script src="javascript/all/modernizr.js" type="text/javascript"></script>
+  </head>
+
+  <body class="readme hamilton">
+    <div class="page-wrapper">
+
+      <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <header class="page-header" role="banner">
+<a class="invisilink" href="./">            <span class="book-title">Hamilton</span>
+</a>        <span class="book-author visuallyhidden">by Bryan Braun</span>
+      </header>
+
+      <div class="content-wrapper clearfix">
+        <div class="toc" id="toc">
+          <a href="#" class="toc-title" id="toc-title"><h3>Table of Contents</h3></a>
+          <nav role="navigation" id="toc-nav" style="display: none;">
+            <ul id="toc-list">
+              <li class='child '><a href="./">Front Page</a></li><li class='child '><a href="1-introduction.html">Introduction</a></li><li class='child '><a href="2-setup.html">Setup</a></li><li class='child '><a href="3-conditions.html">Condtions</a></li><li class='child '><a href="4-loops.html">Loops</a></li><li class='child '><a href="5-objects.html">Objects</a></li><li class='child '><a href="6-classes.html">Classes</a></li><li class='child '><a href="7-libraries.html">Libraries</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section class="main-content" role="main">
+          <div class="main-content-source">
+            <h1>Example Book</h1>
+
+<p>This is an example of what it might look like to host the contents of a book on Github. If you have cloned this project, you may replace this README with your own. Otherwise, this README will explain how a book repository works, with Bitbooks.</p>
+
+<h2>What goes in this book repository?</h2>
+
+<p>Only one thing: <strong>Book content</strong></p>
+
+<p>This content takes three main forms:</p>
+
+<ol>
+<li>The front page (<code>index.md</code>)</li>
+<li>Additional pages</li>
+<li>Images</li>
+</ol>
+
+<p>There must be a page named <code>index.md</code>, which will be used to make the front page of your book. Each additional page is represented by a separate <code>.md</code> file and can be named whatever you please.</p>
+
+<p><strong>The content of all pages should be written in Markdown.</strong> Each page (including the front page) should begin with a heading (represented in markdown by <code># Title</code>). This heading will be used to lable the page in the book&rsquo;s table of contents. If you do not have a heading on the page, Bitbooks will use the filename to generate this information.</p>
+
+<p>If you want to put images in your book, we recommend that you upload your images to an <code>images</code> folder for referencing within your book&rsquo;s pages. Examples on how to do this can be found in <a href="styleguide.md">styleguide.md</a>.</p>
+
+<h3>What is Markdown?</h3>
+
+<p>Markdown is a simple format for writing on the web. Markdown content is written with a text editor and saved as files named like <code>filename.md</code> (or alternatively <code>filename.markdown</code>). If you are unfamiliar with markdown, here are some <a href="https://help.github.com/articles/markdown-basics">basic instructions for getting started</a>.</p>
+
+<h2>Directory Structure</h2>
+
+<p>Bitbooks makes very few assumptions about how your repository should be structured. You can create a flat list of markdown files, or you can choose to use directories to organize your book content, like the &ldquo;chapter&rdquo; folders in this example.</p>
+
+<p>The structure of your Bitbooks site will mimic the structure of this repository. Here are a few example directory structures, with the resulting impact on book navigation and urls:</p>
+
+<p>(image 1)</p>
+
+<p>(image 2)</p>
+
+<p>(image 3)</p>
+
+<p>You may have noticed that page order is defined by alphebetical sorting of the filename. For this reason, we usually recommend prepending filenames with numbers for sorting purposes. The only exception to this is <code>index.md</code> which will always be sorted first to be used as the front page.</p>
+
+<h2>Styleguide</h2>
+
+<p>You can see markdown usage examples in <a href="styleguide.md">styleguide.md</a>. This demonstrates how to reference images from your images folder, include code snippets, use html for advanced formatting (like tables or video embeds), and more.</p>
+
+          </div>
+          <nav class="main-content-nav clearfix" role="navigation">
+            <ul class="clearfix">
+              <li></li>
+                <li></li>
+            </ul>
+          </nav>
+        </section>
+
+        </div><!-- end content-wrapper -->
+
+      <footer class="page-footer">
+
+        <div class="footer-wrapper clearfix" role="complementary">
+          <!--
+          <div class="block-pair clearfix">
+            <div class="block downloads">
+              <h3>Downloads</h3>
+              <p>Download this book in
+                  <a href="#">PDF</a>, <a href="#">mobi</a>, and <a href="#">epub</a>
+                form for free.
+              </p>
+            </div>
+
+            <div class="block translations">
+              <h3>Book translations</h3>
+              <p>This book is translated into
+                <a href="#">Spanish</a>
+                and <a href="#">English</a>.
+                You can help with more translations <a href="https://github.com/bitbooks/example-book-hamilton">on Github</a>.
+              </p>
+            </div>
+          </div>
+          -->
+          <div class="block-pair clearfix">
+            <div class="block license">
+              <h3>License</h3>
+              <p>This book is licensed under the <a href="https://creativecommons.org/licenses/by/4.0">Attribution</a> license.</p>
+            </div>
+            <div class="block open-source">
+              <h3>This book is open source</h3>
+              <p>The source of this book is <a href="https://github.com/bitbooks/example-book-hamilton">hosted on Github</a>. Go, ahead. Check it out.</p>
+            </div>
+          </div>
+
+          <div class="small-text"><small>Made with <a href="http://bitbooks.cc">Bitbooks</a></small></div>
+
+        </div><!-- end footer-wrapper -->
+
+      </footer>
+
+
+    </div><!-- end page-wrapper -->
+
+    <!-- include scripts just before the close of the body tag -->
+    <script src="javascript/all/anchor.min.js" type="text/javascript"></script>
+    <script src="javascript/all/all.js" type="text/javascript"></script>
+    <script src="javascript/hamilton/hamilton.js" type="text/javascript"></script>
+  </body>
+</html>

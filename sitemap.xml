@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+      <loc>http://your-url.bitbooks.cc/1-introduction.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/2-setup.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/3-conditions.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/4-loops.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/404.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/5-objects.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/6-classes.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/7-libraries.html</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://your-url.bitbooks.cc/readme.html</loc>
+      <priority>0.5</priority>
+    </url>
+</urlset>

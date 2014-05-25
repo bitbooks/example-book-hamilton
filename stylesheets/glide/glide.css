@@ -1,0 +1,459 @@
+/* ==========================================================================
+   Bitbooks base styles
+   ========================================================================== */
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 12, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+::-moz-selection {
+  background: #ec7963;
+  color: white;
+  text-shadow: none; }
+
+/* line 18, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+::selection {
+  background: #ec7963;
+  color: white;
+  text-shadow: none; }
+
+/* line 24, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+html {
+  /* Too Small */
+  /*
+    @media screen and (min-width: $desktop-1) {
+      font-size: 1.250em; // 16px * 1.250em = 20px base font
+    }
+  
+    @media screen and (min-width: $desktop-2) {
+      font-size: 1.375em; // 16px * 1.375em = 22px base font
+    }
+  */ }
+  @media screen and (max-width: 460px) {
+    /* line 24, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+    html {
+      font-size: 0.875em; } }
+  @media screen and (min-width: 460px) {
+    /* line 24, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+    html {
+      font-size: 1em; } }
+  @media screen and (min-width: 600px) {
+    /* line 24, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+    html {
+      font-size: 1em; } }
+  @media screen and (min-width: 1030px) {
+    /* line 24, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+    html {
+      font-size: 1.125em; } }
+
+/* line 53, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+/* line 59, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", helvetica, sans-serif;
+  line-height: 1.5; }
+
+/* line 65, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", helvetica, sans-serif;
+  font-weight: normal;
+  margin: 1em 0; }
+
+/* line 71, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h1 {
+  font-size: 2.250em; }
+
+/* line 75, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h2 {
+  font-size: 1.50em;
+  border-bottom: 1px solid #ccc; }
+
+/* line 80, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h3 {
+  font-size: 1.313em; }
+
+/* line 84, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h4 {
+  font-size: 1.313em;
+  font-style: italic; }
+
+/* line 89, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h5 {
+  font-size: 1.125em;
+  text-transform: uppercase; }
+
+/* line 94, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+h6 {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  color: #777; }
+
+/* line 100, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+a {
+  color: #ec7963;
+  text-decoration: underline; }
+  /* line 104, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+  a:hover {
+    text-decoration: none; }
+  /* line 115, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+  a:focus {
+    background-color: #ec7963;
+    color: white;
+    text-decoration: none; }
+
+/* line 122, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+p {
+  color: #3b3b3b; }
+
+/* line 126, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+ul {
+  -webkit-padding-start: 2em;
+  color: #3b3b3b; }
+
+/* line 131, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+blockquote {
+  font-style: italic;
+  margin-left: 1.94em; }
+
+/* line 136, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+table {
+  margin: 1em 0;
+  width: 100%; }
+
+/* line 142, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+th,
+td {
+  border: solid 1px #ccc;
+  padding: 5px 11px;
+  vertical-align: top; }
+
+/**
+ * 'Simple' styling for code examples
+ */
+/* line 153, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+code,
+samp,
+kbd {
+  font-family: "Courier", monospace;
+  padding: 0 6px;
+  text-align: left; }
+
+/* line 159, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+pre {
+  font-family: "Courier", monospace;
+  line-height: 1.2em;
+  margin: 1.2em 0;
+  overflow: auto;
+  padding: 0 0 0 1.5em; }
+
+/**
+* Override 'code' css rules if using 'pre > code' markup.
+*/
+/* line 170, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+pre > code {
+  padding: 0; }
+
+/**
+ * target IE7 and IE6
+ */
+/* line 177, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+*:first-child + html pre {
+  overflow: visible;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 2em; }
+
+/* line 184, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_base.scss */
+* html pre {
+  overflow: visible;
+  overflow-x: auto;
+  padding-bottom: 2em; }
+
+/* line 2, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.page-header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 2em 0; }
+  /* line 10, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .book_index .page-header, .index .page-header {
+    padding: 3em 0; }
+
+/* line 14, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.book-title {
+  font-family: "Bree Serif", "Helvetica Neue", helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2.50em;
+  display: block;
+  margin: 0; }
+  /* line 23, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .book_index .book-title, .index .book-title {
+    font-size: 3em;
+    padding: 0; }
+
+/* line 29, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.book_index .book-author,
+.index .book-author {
+  font-size: 1em;
+  font-family: "Bree Serif", "Helvetica Neue", helvetica, sans-serif;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* line 44, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.content-wrapper {
+  max-width: 58em;
+  margin: 0 auto;
+  padding: 3em 1em; }
+
+/* line 49, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.aside-content {
+  float: right;
+  width: 36%;
+  padding-right: 6em; }
+  @media screen and (max-width: 1030px) {
+    /* line 49, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+    .aside-content {
+      padding-right: 3em; } }
+  /* line 58, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .aside-content .block {
+    font-size: 0.875em; }
+    /* line 61, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+    .aside-content .block:first-child h3 {
+      margin-top: 0.4em; }
+    /* line 65, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+    .aside-content .block h3 {
+      font-family: "Bree Serif", "Helvetica Neue", helvetica, sans-serif;
+      font-size: 1.2em; }
+  @media screen and (max-width: 600px) {
+    /* line 49, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+    .aside-content {
+      float: none;
+      width: 100%;
+      padding: 3em 0 0 0;
+      margin-top: 3em;
+      border-top: 1px solid #F2F2F2; } }
+
+/* line 81, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.main-content {
+  width: 64%;
+  float: right; }
+  /* line 85, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .main-content h1:first-child {
+    margin-top: 0; }
+  @media screen and (max-width: 600px) {
+    /* line 81, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+    .main-content {
+      float: none;
+      width: 100%;
+      padding-right: 0; } }
+
+/* line 99, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.table-of-contents {
+  margin-bottom: 3.5em; }
+  /* line 102, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .table-of-contents ul {
+    list-style-type: none;
+    padding-left: 1em; }
+  /* line 106, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .table-of-contents li.child {
+    line-height: 1;
+    padding: 2px 0 8px 0; }
+  /* line 111, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .table-of-contents nav > ul {
+    padding: 0;
+    -webkit-padding-start: 0; }
+
+/* line 118, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.main-content-source {
+  margin-bottom: 2em; }
+
+/* line 123, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.main-content-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 129, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.main-content-nav li {
+  display: inline; }
+  /* line 132, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .main-content-nav li:first-child {
+    float: left;
+    overflow: hidden; }
+  /* line 137, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .main-content-nav li:last-child {
+    float: right;
+    overflow: hidden; }
+/* line 143, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.main-content-nav a {
+  display: block;
+  padding: 0.5em 0;
+  width: 6em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: #ec7963;
+  transition: background-color 0.15s ease-in; }
+
+/* line 155, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.active {
+  font-weight: bold; }
+
+/* line 159, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+a.anchor-link:focus {
+  background-color: transparent; }
+
+/* line 163, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.previous {
+  position: relative;
+  margin-left: 1em; }
+  /* line 167, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .previous:after {
+    content: "";
+    position: absolute;
+    top: -0.313em;
+    left: -1.375em;
+    width: 0;
+    height: 0;
+    border-color: transparent #ec7963 transparent transparent;
+    border-style: solid;
+    border-width: 1.625em 1em 1.625em 0.5em;
+    transition: border-color 0.15s ease-in; }
+  /* line 180, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .previous:hover, .previous:focus {
+    background: #e85a3f; }
+  /* line 184, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .previous:hover:after, .previous:focus:after {
+    border-color: transparent #e85a3f transparent transparent; }
+
+/* line 189, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.next {
+  position: relative;
+  margin-right: 1em; }
+  /* line 193, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .next:after {
+    content: "";
+    position: absolute;
+    top: -0.313em;
+    right: -1.375em;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #ec7963;
+    border-style: solid;
+    border-width: 1.625em 0.5em 1.625em 1em;
+    transition: border-color 0.15s ease-in; }
+  /* line 206, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .next:hover, .next:focus {
+    background: #e85a3f; }
+  /* line 210, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .next:hover:after, .next:focus:after {
+    border-color: transparent transparent transparent #e85a3f; }
+
+/* line 216, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.page-footer {
+  clear: both;
+  background-color: #f2f2f2;
+  padding: 2em 0; }
+
+/* line 221, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.footer-wrapper {
+  max-width: 36em;
+  margin: 0 auto;
+  padding: 0 1em; }
+  /* line 226, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+  .footer-wrapper .block {
+    width: 49%;
+    padding: 0 0.8em;
+    font-size: 0.875em;
+    float: left; }
+    /* line 232, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+    .footer-wrapper .block h3 {
+      font-family: "Bree Serif", "Helvetica Neue", helvetica, sans-serif;
+      font-size: 1.2em; }
+    @media screen and (max-width: 600px) {
+      /* line 226, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+      .footer-wrapper .block {
+        width: 100%;
+        padding: 0; } }
+
+/* line 244, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_main.scss */
+.page-footer small {
+  clear: both;
+  display: block;
+  text-align: center;
+  padding: 1em 0; }
+
+/**
+ * Store the link icon as a base64 embedded icon font.
+ */
+@font-face {
+  font-family: 'anchorjs-link';
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6v8yoAAAC8AAAAYGNtYXDL8RqdAAABHAAAADxnYXNwAAAAEAAAAVgAAAAIZ2x5Zkm2oNUAAAFgAAABWGhlYWQAHd4cAAACuAAAADZoaGVhB3sECwAAAvAAAAAkaG10eAYAAEcAAAMUAAAADGxvY2EACgCsAAADIAAAAAhtYXhwAAYAcAAAAygAAAAgbmFtZUQXtNYAAANIAAABOXBvc3QAAwAAAAAEhAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACDmAAPA/8D/wAPAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACDmAP//AAAAIOYA////4RoCAAEAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAIARwAHA7kDeQA2AG0AAAEnLgEiBg8BDgEUFh8BHgMXNy4DLwEuATQ2PwE+ATIWHwEeARQGDwEeAxU3PgE0JicBLgMnBx4DHwEeARQGDwEOASImLwEuATQ2PwEuAzUHDgEUFh8BHgEyNj8BPgE0Ji8BA7kEI1ldWiPaIyQkIwQDBgYGBFAEBwYHAwQTExMT2xMwMjETBBMTExNjBwkGA5gkIyMk/r4DBgYGBFAEBwYHAwQTExMT2xMwMjETBBMTExNjBwkGA5gkIyMkBCNZXVoj2iMkJCMEA3UEJCMjJNojWV1aIwQDBgUFA1ACBQUFAwQUMDIxE9oTExMTBBMxMjATYxAhISIRmSNaXVkj/sYDBgUFA1ACBQUFAwQUMDIxE9oTExMTBBMxMjATYxAhISIRmSNaXVkjBCQjIyTaI1ldWiMEAAEAAAABAABR/4xQXw889QALBAAAAAAAzqNM0wAAAADOo0zTAAAAAAO5A3kAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAABHA7kAAQAAAAAAAAAAAAAAAAAAAAMAAAAAAgAAAAQAAEcAAAAAAAoArAABAAAAAwBuAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADgAAAAEAAAAAAAIADgBHAAEAAAAAAAMADgAkAAEAAAAAAAQADgBVAAEAAAAAAAUAFgAOAAEAAAAAAAYABwAyAAEAAAAAAAoAKABjAAMAAQQJAAEADgAAAAMAAQQJAAIADgBHAAMAAQQJAAMADgAkAAMAAQQJAAQADgBVAAMAAQQJAAUAFgAOAAMAAQQJAAYADgA5AAMAAQQJAAoAKABjAGkAYwBvAG0AbwBvAG4AVgBlAHIAcwBpAG8AbgAgADAALgAwAGkAYwBvAG0AbwBvAG5pY29tb29uAGkAYwBvAG0AbwBvAG4AUgBlAGcAdQBsAGEAcgBpAGMAbwBtAG8AbwBuAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("truetype"), url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAATwAAsAAAAABKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq/zKmNtYXAAAAFoAAAAPAAAADzL8RqdZ2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAVgAAAFYSbag1WhlYWQAAAMEAAAANgAAADYAHd4caGhlYQAAAzwAAAAkAAAAJAd7BAtobXR4AAADYAAAAAwAAAAMBgAAR2xvY2EAAANsAAAACAAAAAgACgCsbWF4cAAAA3QAAAAgAAAAIAAGAHBuYW1lAAADlAAAATkAAAE5RBe01nBvc3QAAATQAAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAg5gADwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAg5gD//wAAACDmAP///+EaAgABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAACAEcABwO5A3kANgBtAAABJy4BIgYPAQ4BFBYfAR4DFzcuAy8BLgE0Nj8BPgEyFh8BHgEUBg8BHgMVNz4BNCYnAS4DJwceAx8BHgEUBg8BDgEiJi8BLgE0Nj8BLgM1Bw4BFBYfAR4BMjY/AT4BNCYvAQO5BCNZXVoj2iMkJCMEAwYGBgRQBAcGBwMEExMTE9sTMDIxEwQTExMTYwcJBgOYJCMjJP6+AwYGBgRQBAcGBwMEExMTE9sTMDIxEwQTExMTYwcJBgOYJCMjJAQjWV1aI9ojJCQjBAN1BCQjIyTaI1ldWiMEAwYFBQNQAgUFBQMEFDAyMRPaExMTEwQTMTIwE2MQISEiEZkjWl1ZI/7GAwYFBQNQAgUFBQMEFDAyMRPaExMTEwQTMTIwE2MQISEiEZkjWl1ZIwQkIyMk2iNZXVojBAABAAAAAQAAUf+MUF8PPPUACwQAAAAAAM6jTNMAAAAAzqNM0wAAAAADuQN5AAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAARwO5AAEAAAAAAAAAAAAAAAAAAAADAAAAAAIAAAAEAABHAAAAAAAKAKwAAQAAAAMAbgACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKACgAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKACgAYwBpAGMAbwBtAG8AbwBuAFYAZQByAHMAaQBvAG4AIAAwAC4AMABpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuAFIAZQBnAHUAbABhAHIAaQBjAG8AbQBvAG8AbgBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 12, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+.icon-link {
+  font-family: 'anchorjs-link';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Icon Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/**
+ * Link placement and hover behavior.
+ */
+/* line 29, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+a.anchor-link {
+  opacity: 0;
+  text-decoration: none; }
+
+/* line 33, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+*:hover > a.anchor-link, a.anchor-link:focus {
+  /* To fade links as they appear, change transition-property from "color" to "all" */
+  opacity: 1;
+  -webkit-transition: color .16s linear;
+  -moz-transition: color .16s linear;
+  -o-transition: color .16s linear;
+  transition: color .16s linear; }
+
+/* line 41, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+.icon-link:before {
+  content: "\e600"; }
+
+/**
+ * Reasonable default styles.
+ * Feel free to override or replace these with your own.
+ */
+/* line 49, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+a.anchor-link:link {
+  color: #dfd487; }
+
+/* line 50, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+a.anchor-link:visited {
+  color: #dfd487; }
+
+/* line 51, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+a.anchor-link:hover {
+  color: #ec7963; }
+
+/* line 52, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+a.anchor-link:active {
+  color: #ec7963; }
+
+/* line 54, /Users/bryan.braun/Sites/bitbooks/bitbinder/source-temp/stylesheets/glide/_anchor.scss */
+.icon-link {
+  font-size: 90%;
+  padding-left: 6px; }
